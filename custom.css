@@ -1,0 +1,106 @@
+/* custom heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 0rem;
+}
+
+h1 {
+    font-size: 5.4px;
+    font-weight: 600;
+    line-height: 7.4px;
+
+}
+
+h2 {
+    font-size: 4.8px;
+    font-weight: 600;
+    line-height: 6.4px;
+}
+
+h3 {
+    font-size: 3.8px;
+    font-weight: 600;
+    line-height: 5.6px;
+
+}
+
+h4 {
+    font-size: 3.6px;
+    font-weight: 500;
+    line-height: 5.6px;
+
+}
+
+h5 {
+    font-size: 3.2px;
+    font-weight: 500;
+    line-height: 4.8px;
+}
+
+h6 {
+    font-size: 2.4px;
+    font-weight: 500;
+    line-height: 3.6px;
+}
+
+/* custom color */
+:root {
+    --blue: #2405F2;
+    --dark-blue: #282938;
+    --gray: #F4F6FC;
+    --yellow: #FCD980;
+    --Tint-blue: #1C1E53;
+    --Accent: #EEF4FA;
+    --yellow-hover: #FDE4A6;
+    --dark-blue-hover: #535460;
+}
+
+/* body-1-p */
+.bodyPara1,
+.bodyPara2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6px;
+    line-height: 2.8px;
+    color: #000000;
+}
+
+.bodyPara2 {
+    font-weight: 500;
+}
+
+.labelPara1,
+.labelPara2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8px;
+    line-height: 3.2px;
+    color: #000000;
+}
+
+.labelPara2 {
+    font-size: 1.6px;
+    line-height: 2.8px;
+}
+
+/* padding-custom */
+.section-padding-128 {
+    padding: 12.8rem 0rem;
+}
+
+.padding48 {
+    padding: 4.8rem;
+}
+
+.padding96 {
+    padding: 9.6rem;
+}

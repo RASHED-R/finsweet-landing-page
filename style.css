@@ -1,38 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mulish&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mulish&family=Poiret+One&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap');
+
+html {
+    font-size: 62.5%;
+}
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-p {
-    font-family: Mulish, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(153, 153, 153);
-    line-height: 1.8;
-    margin: 0px;
-}
-
-body {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 ul {
     padding: 0;
     margin: 0px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 #scrollNavbar li.nav-itme.active a {
@@ -153,19 +136,4 @@ li.nav-itme a::before {
     bottom: 10px;
     background-color: rgb(113, 70, 243);
     transition: all 0.4s ease-in-out 0s;
-}
-
-section.para {
-    margin-top: 80px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0px;
-    font-weight: 600;
-    line-height: 1.4;
 }
