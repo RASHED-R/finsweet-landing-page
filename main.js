@@ -1,8 +1,8 @@
 // nav main
-let hamburgerMain = document.querySelector('.hamburger.main');
-let mobileNavMain = document.querySelector('.nav-menu-ul.main');
+let hamburgerMain = document.querySelector('.hamburger');
+let mobileNavMain = document.querySelector('.nav-menu-ul');
 
-let barsMain = document.querySelectorAll('.hamburger.main span');
+let barsMain = document.querySelectorAll('.hamburger span');
 
 let isActiveMain = false;
 hamburgerMain.addEventListener('click', function () {
@@ -29,6 +29,9 @@ hamburgerMain.addEventListener('click', function () {
 
 })
 // nav-scroll
+window.onscroll = function () {
+    scrollFunction()
+};
 let position = document.getElementById("scrollNavbar");
 
 function scrollFunction() {
