@@ -1,15 +1,64 @@
 /* ***Responsive media query*** */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1500px) and (max-width:1800px) {}
+@media (min-width: 1500px) and (max-width:1800px) {
+    html {
+        font-size: 62.5%;
+    }
+}
 
-@media (min-width: 1200px) and (max-width:1500px) {}
+@media (min-width: 1200px) and (max-width:1500px) {
+    html {
+        font-size: 62.5%;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    banner-section a.View-work-btn {
+        padding: 1.6rem 4.6rem;
+    }
+
+    .startups-wrapper-right {
+        padding: 4.8rem;
+    }
+
+    .startups-title {
+        position: absolute;
+        top: 0;
+        padding: 4.8rem;
+    }
+
+    .inquiryBtn a {
+        padding: 1.2rem 12rem;
+    }
+
+    .startups-wrapper-right {
+        padding-bottom: 1rem !important;
+    }
+
+    .inquiryBtn {
+        margin-top: 2rem;
+    }
+
+    a.getTouchInquiry {
+        margin-top: 1rem;
+    }
+
+    .inquiry {
+        padding: 1.55rem 0.75rem !important;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    html {
+        font-size: 52.5%;
+    }
 
     .hamburger {
         display: block;
@@ -23,24 +72,63 @@
         display: block;
     }
 
+    /* banner-section */
+    .banner-img {
+        margin-top: 4rem;
+    }
+
+    /* work-section */
+    .work-process {
+        margin-top: 3rem;
+    }
+
+    /* view-project */
+    .view-project-left-title-wrapper {
+        padding: 9rem 2rem 4rem;
+    }
+
+    .view-project-right-wrapper2,
+    .view-project-right {
+        margin-top: 4rem;
+    }
+
+    /* client-says */
+    .team-slider {
+        margin-top: 4rem;
+    }
+
+    .client-says-title,
+    .client-says-title h3 {
+        text-align: center;
+    }
+
+    /* faq */
+    .accordion-wrapper {
+        margin-top: 4rem;
+    }
+
+    /* footer */
+
+    .footer-right {
+        margin-top: 4rem;
+    }
+
+    .contact-part {
+        bottom: -32rem;
+    }
+
+    section.footer-bottom {
+        text-align: center;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) {
-
-    ul.nav-ul.scroll {
-        display: none;
+    html {
+        font-size: 42.5%;
     }
 
-    .nav-menu-ul.scroll {
-        display: block;
-    }
-
-    .hamburger.scroll {
-        display: block;
-    }
-
-    .hamburger.main {
+    .hamburger {
         display: block;
     }
 
@@ -48,12 +136,66 @@
         display: none;
     }
 
-    .nav-menu-ul.main {
+    li.nav-itme {
         display: block;
     }
 
-    li.nav-itme {
-        display: block;
+    /* banner-section */
+    .banner-img {
+        margin-top: 4rem;
+    }
+
+    .banner-btn .pricing {
+        margin-top: 2rem;
+    }
+
+    /* work-section */
+    .work-process {
+        margin-top: 3rem;
+    }
+
+    .work-process-card {
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+    }
+
+    /* view-project */
+    .view-project-left-title-wrapper {
+        padding: 9rem 2rem 4rem;
+    }
+
+    .view-project-right-wrapper2,
+    .view-project-right {
+        margin-top: 4rem;
+    }
+
+    /* client-says */
+    .team-slider {
+        margin-top: 4rem;
+    }
+
+    .client-says-title,
+    .client-says-title h3 {
+        text-align: center;
+    }
+
+    /* faq */
+    .accordion-wrapper {
+        margin-top: 4rem;
+    }
+
+    /* footer */
+
+    .footer-right {
+        margin-top: 4rem;
+    }
+
+    .contact-part {
+        bottom: -32rem;
+    }
+
+    section.footer-bottom {
+        text-align: center;
     }
 
 
@@ -63,41 +205,49 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 481px) and (max-width: 595px) {
+    html {
+        font-size: 40%;
+    }
+
     .logo img {
         width: 65%;
     }
 
-    .title {
-        padding: 63px 0;
+    /* banner-section */
+
+    /* work-section */
+    .work-process {
+        margin-top: 3rem;
     }
 
-    .title h1 {
-        font-size: 30px;
-        word-spacing: 0px;
-        letter-spacing: 0px;
+    .work-process-card {
+        margin-bottom: 3rem;
     }
 
-    .title h4 {
-        letter-spacing: 2px;
-        font-size: 22px;
-    }
+    /* view-project */
 
-    .title h6 {
-        letter-spacing: 1px;
-        font-size: 14px;
-    }
-
-    .butn {
-        padding: 6px 15px;
-    }
-
-    .butn span {
-        font-size: 13px;
-    }
 }
 
 @media (max-width: 480px) {
+    html {
+        font-size: 35%;
+    }
+
     .logo img {
         width: 60%;
     }
+
+    /* banner-section */
+
+    /* work-section */
+    .work-process-card img {
+        width: 10%;
+    }
+
+    /* view-project *
+    /* client-says */
+    .team-slider {
+        margin-top: 4rem;
+    }
+
 }

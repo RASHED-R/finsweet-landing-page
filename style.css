@@ -41,41 +41,40 @@ h6 {
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 5rem;
     font-weight: 600;
-    line-height: 7.4rem;
+    line-height: 7rem;
 
 }
 
 h2 {
-    font-size: 4.8rem;
+    font-size: 4rem;
     font-weight: 600;
-    line-height: 6.4rem;
-    /* margin: 0rem; */
+    line-height: 6rem;
 }
 
 h3 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     font-weight: 600;
-    line-height: 5.6rem;
+    line-height: 5rem;
 
 }
 
 h4 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-weight: 500;
-    line-height: 5.6rem;
+    line-height: 5rem;
 
 }
 
 h5 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 500;
-    line-height: 4.8rem;
+    line-height: 4rem;
 }
 
 h6 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 3.6rem;
 }
@@ -91,6 +90,7 @@ h6 {
     --yellow-hover: #FDE4A6;
     --dark-blue-hover: #535460;
     --dark: #1B1C2B;
+    --owl-hover: #5239FA;
 }
 
 /* body-1-p */
@@ -114,12 +114,12 @@ h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 3.2rem;
     color: #000000;
 }
 
-rem .labelPara2 {
+.labelPara2 {
     font-size: 1.6rem;
     line-height: 2.8rem;
 }
@@ -137,6 +137,10 @@ rem .labelPara2 {
     padding: 9.6rem;
 }
 
+.padding86 {
+    padding: 8.6rem;
+}
+
 /* margin-custom */
 .mt24 {
     margin-top: 2.4rem;
@@ -146,16 +150,37 @@ rem .labelPara2 {
     margin-bottom: 4.2rem;
 }
 
+.mb32 {
+    margin-bottom: 3.2rem;
+}
+
 .mtmb16 {
     margin: 1.6rem 0rem;
 }
 
 .mt50 {
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
+.mt40 {
+    margin-top: 4rem;
+}
+
+.mt48 {
+    margin-top: 4.8rem;
+}
+
+
 .mb64 {
-    margin-bottom: 64px;
+    margin-bottom: 6.4rem;
+}
+
+.mb35 {
+    margin-bottom: 3.5rem;
+}
+
+.mt28 {
+    margin-top: 2.8rem;
 }
 
 /* custom end */
@@ -304,7 +329,7 @@ a.contact-us:hover {
     color: #fff;
 }
 
-a.View-work-btn {
+.banner-btn .View-work-btn a {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
@@ -316,11 +341,11 @@ a.View-work-btn {
     background-color: var(--yellow);
 }
 
-a.View-work-btn:hover {
+.banner-btn .View-work-btn a:hover {
     background-color: var(--yellow-hover);
 }
 
-a.labelPara2.pricing {
+.banner-btn .pricing a {
     color: #fff;
 }
 
@@ -330,4 +355,277 @@ a.labelPara2.pricing {
 
 .work-section-heading a {
     color: var(--blue);
+}
+
+/* view-project-section */
+.view-project-left {
+    position: relative;
+}
+
+.project-section-wrapper img {
+    width: 100%;
+}
+
+.view-project-left-title-wrapper img {
+    width: 100%;
+}
+
+.view-project-left-title-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24rem 2rem 0rem;
+    background-image: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    min-height: 100%;
+    max-width: 47%;
+}
+
+p.view-project-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #FFFFFF;
+}
+
+.view-project-btn a {
+    color: var(--yellow);
+}
+
+.view-project-btn {
+    margin-top: 3rem;
+}
+
+.single-feature-card {
+    padding: 4rem 3rem;
+}
+
+.single-feature-card i {
+    font-size: 2.5rem;
+    color: var(--blue);
+    margin-bottom: 2.2rem;
+}
+
+.single-feature-card h6 {
+    margin-bottom: 1.2rem;
+}
+
+.single-feature-card h6,
+.single-feature-card p {
+    color: var(--dark-blue);
+}
+
+/* client-section */
+.client-says-title {
+    padding: 0rem 5rem;
+}
+
+.clint-img {
+    display: flex;
+    align-items: center;
+}
+
+.clint-img img {
+    width: auto !important;
+    border-radius: 50%;
+}
+
+/* owl-button */
+#latest-card-active.owl-theme .owl-dots {
+    display: none;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.latest-card-1 {
+    color: var(--dark-blue);
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 19%);
+    background-color: white;
+    font-size: 1.5rem;
+    transition: .3s ease-in-out;
+}
+
+.latest-card-1:hover {
+    background-color: var(--owl-hover);
+    color: #fff;
+}
+
+.latest-card-left,
+.latest-card-right {
+    position: absolute;
+    bottom: 4rem;
+    right: 6rem;
+}
+
+.latest-card-right {
+    right: 0rem;
+}
+
+/* faq-section */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-header {
+    line-height: 3rem;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    color: transparent;
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("./image/logo/mul.png");
+    transform: scale(.9) !important;
+}
+
+/* startup-section */
+.startups-wrapper-left {
+    position: relative;
+}
+
+.startups-title {
+    position: absolute;
+    top: 0;
+}
+
+.startups-wrapper-left:before {
+    position: absolute;
+    content: "";
+    background-color: var(--Tint-blue);
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+
+.inquiry {
+    padding: 1.8rem 0.75rem !important;
+    border: 0.05rem solid rgba(255, 255, 255, 0.05);
+}
+
+.startups-wrapper-right .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: .0.05rem solid;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.startups-wrapper-right .form-control {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+.inquiryBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.inquiryBtn a {
+    padding: 1.2rem 13rem;
+    background-color: var(--yellow);
+    border-radius: 4rem;
+    color: var(--dark);
+    font-size: 1.8rem;
+    font-family: Manrope;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.inquiryBtn a:hover {
+    background-color: var(--yellow-hover);
+    color: var(--dark-blue-hover);
+}
+
+a.getTouchInquiry {
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.startups-wrapper-right {
+    padding-bottom: 4.56rem !important;
+}
+
+/* footer */
+.footer-padding104 {
+    padding: 10.4rem 0;
+}
+
+.footer-right ul li {
+    display: inline;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    /* color: white; */
+}
+
+.footer-right h2 p {
+    color: white !important;
+}
+
+.footer-right h2,
+.footer-right p {
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+
+.footer-left .labelPara2 {
+    color: #fff !important;
+    margin-top: 2.4rem;
+    padding-right: 1rem;
+}
+
+.footer-bottom-right ul li {
+    display: inline;
+    margin-right: 2rem;
+
+}
+
+.footer-bottom-right ul li a {
+    color: var(--dark-blue);
+}
+
+.footer-bottom-right ul li a:hover {
+    color: var(--dark-blue-hover);
+}
+
+.footer-right ul li a {
+    color: #fff;
+}
+
+.p17 {
+    padding: 1.7rem;
+}
+
+.contact-part {
+    position: absolute;
+    bottom: -17.69rem;
+    width: 100%;
+}
+
+.footer-left-wrap {
+    position: relative;
 }
