@@ -34,7 +34,7 @@ h4,
 h5,
 h6 {
     font-family: Poppins;
-    text-align: left;
+    /* text-align: left; */
     color: #000000;
     letter-spacing: 0rem;
     margin: 0rem;
@@ -150,6 +150,10 @@ h6 {
     margin-bottom: 4.2rem;
 }
 
+.mt8 {
+    margin-top: 0.8rem;
+}
+
 .mb32 {
     margin-bottom: 3.2rem;
 }
@@ -179,8 +183,20 @@ h6 {
     margin-bottom: 3.5rem;
 }
 
+.mt30 {
+    margin-top: 3rem;
+}
+
 .mt28 {
     margin-top: 2.8rem;
+}
+
+.mt80 {
+    margin-top: 8rem;
+}
+
+.mt96 {
+    margin-top: 9.6rem;
 }
 
 /* custom end */
@@ -397,22 +413,27 @@ p.view-project-title {
     margin-top: 3rem;
 }
 
+.benefits-card-details,
 .single-feature-card {
     padding: 4rem 3rem;
 }
 
-.single-feature-card i {
+.single-feature-card i,
+.benefits-card-details i {
     font-size: 2.5rem;
     color: var(--blue);
     margin-bottom: 2.2rem;
 }
 
-.single-feature-card h6 {
+.single-feature-card h6,
+.benefits-card-details h6 {
     margin-bottom: 1.2rem;
 }
 
 .single-feature-card h6,
-.single-feature-card p {
+.single-feature-card p,
+.benefits-card-details h6,
+.benefits-card-details p {
     color: var(--dark-blue);
 }
 
@@ -628,4 +649,111 @@ a.getTouchInquiry {
 
 .footer-left-wrap {
     position: relative;
+}
+
+/* ****************************************************************************** */
+/* ****************************************************************************** */
+/* ****************************************************************************** */
+/* ****************************************************************************** */
+/* ****************************************************************************** */
+
+/* about-us-page */
+
+
+/* about-us-section */
+.about-us-title-wrapper h1 {
+    color: var(--dark-blue);
+}
+
+/* process-section */
+.circlee {
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--blue);
+    border-radius: 50%;
+}
+
+.dotted-line {
+    border-top: .2rem dashed rgba(36, 5, 242, .4);
+    width: 70%;
+}
+
+.circle-dotted {
+    display: flex;
+}
+
+/* benefits-section */
+.benefits-card-details {
+    background-color: var(--gray);
+}
+
+.sponsor-slider .owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+    display: none;
+}
+
+.sponsor-slider .item img {
+    opacity: .3;
+}
+
+/* team-member */
+.team-mate-slide {
+    padding: 4.8rem 5.4rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.team-mate-slide img {
+    width: 100%;
+}
+
+.team-mate-slider .item {
+    text-align: center;
+}
+
+.team-member-details {
+    text-align: center;
+}
+
+.member-img {
+    position: relative;
+}
+
+.team-mate-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.member-img:hover .team-mate-overlay {
+    /* border-radius: 50%; */
+    opacity: 1;
+}
+
+.team-mate-overlay ul li {
+    display: inline-block;
+    left: 0;
+}
+
+.team-mate-overlay ul {
+    position: absolute;
+    left: 5rem;
+    bottom: 2.0rem;
+}
+
+.team-mate-overlay ul li a {
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.team-member-details p {
+    color: rgba(29, 33, 48, .7);
 }
