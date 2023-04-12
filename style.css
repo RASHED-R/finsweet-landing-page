@@ -34,7 +34,6 @@ h4,
 h5,
 h6 {
     font-family: Poppins;
-    /* text-align: left; */
     color: #000000;
     letter-spacing: 0rem;
     margin: 0rem;
@@ -141,9 +140,25 @@ h6 {
     padding: 8.6rem;
 }
 
+.padding64-48 {
+    padding: 6.4rem 4.8rem;
+}
+
 /* margin-custom */
 .mt24 {
     margin-top: 2.4rem;
+}
+
+.mb17 {
+    margin-bottom: 1.7rem;
+}
+
+.mb44 {
+    margin-bottom: 4.4rem;
+}
+
+.mb12 {
+    margin-bottom: 1.2rem;
 }
 
 .mb42 {
@@ -162,6 +177,10 @@ h6 {
     margin: 1.6rem 0rem;
 }
 
+.mt16 {
+    margin-top: 1.6rem;
+}
+
 .mt50 {
     margin-top: 5rem;
 }
@@ -174,6 +193,9 @@ h6 {
     margin-top: 4.8rem;
 }
 
+.mb20 {
+    margin-bottom: 2rem;
+}
 
 .mb64 {
     margin-bottom: 6.4rem;
@@ -698,13 +720,9 @@ a.getTouchInquiry {
 
 /* team-member */
 .team-mate-slide {
-    padding: 4.8rem 5.4rem;
+    padding: 4.8rem 0rem;
     background-color: #fff;
     position: relative;
-}
-
-.team-mate-slide img {
-    width: 100%;
 }
 
 .team-mate-slider .item {
@@ -713,16 +731,19 @@ a.getTouchInquiry {
 
 .team-member-details {
     text-align: center;
+    margin-top: 2rem;
 }
 
 .member-img {
     position: relative;
+    width: 13rem;
+    margin: 0 auto;
 }
 
 .team-mate-overlay {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0px;
     right: 0;
     background-image: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
     overflow: hidden;
@@ -745,8 +766,9 @@ a.getTouchInquiry {
 
 .team-mate-overlay ul {
     position: absolute;
-    left: 5rem;
-    bottom: 2.0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 82%;
 }
 
 .team-mate-overlay ul li a {
@@ -756,4 +778,92 @@ a.getTouchInquiry {
 
 .team-member-details p {
     color: rgba(29, 33, 48, .7);
+}
+
+.team-mate-slider .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
+/* pricing-section */
+.process-section-title p {
+    color: rgba(40, 41, 56, .7);
+}
+
+.single-pricing-card .bodyPara2 {
+    color: rgba(40, 41, 56, .7) !important;
+}
+
+.single-pricing-card {
+    border-radius: 1.2rem;
+    background-color: var(--gray);
+}
+
+.single-pricing-card.middle {
+    background-color: var(--Tint-blue);
+}
+
+.paring-card-list li {
+    line-height: 2rem;
+}
+
+.single-pricing-card.middle h3 {
+    color: #fff;
+}
+
+.single-pricing-card.middle .bodyPara1 {
+    color: var(--yellow);
+}
+
+.single-pricing-card.middle h6,
+.single-pricing-card.middle .bodyPara2,
+.single-pricing-card.middle li {
+    color: #fff !important;
+}
+
+.single-pricing-card .bodyPara1 {
+    color: var(--blue);
+}
+
+.paring-card-list li i,
+.single-pricing-card.middle li i {
+    color: #97DAAD;
+}
+
+.paring-card-list li {
+    line-height: 3.2rem;
+}
+
+.single-pricing-card.middle .pricing-card-btn a {
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+    transition: .3s ease-in-out;
+}
+
+.single-pricing-card.middle .pricing-card-btn a:hover {
+    background-color: var(--yellow-hover);
+}
+
+.pricing-card-btn {
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.9rem;
+}
+
+.pricing-card-btn a {
+    padding: 1.6rem 7.9rem;
+    background-color: var(--dark-blue);
+    border-radius: 4.1rem;
+    color: var(--gray);
+    transition: .3s ease-in-out;
+}
+
+.pricing-card-btn a:hover {
+    background-color: var(--dark-blue-hover);
+    color: #fff;
+}
+
+section.pricing-card-section {
+    padding-bottom: 0rem;
 }

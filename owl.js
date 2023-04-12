@@ -30,15 +30,15 @@ $(function () {
         margin: 20,
         nav: true,
         items: 5,
-        dots: true,
+        dots: false,
         loop: true,
         responsive: {
             0: {
-                items: 1,
+                items: 3,
                 nav: true
             },
             768: {
-                items: 3,
+                items: 4,
                 nav: false,
             },
             1000: {
@@ -54,9 +54,9 @@ $(function () {
 $(function () {
     $('#team-mate-slider-active').owlCarousel({
         margin: 20,
-        nav: true,
+        nav: false,
         items: 4,
-        dots: true,
+        dots: false,
         loop: true,
         responsive: {
             0: {
