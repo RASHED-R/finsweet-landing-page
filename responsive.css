@@ -7,14 +7,32 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width:1500px) {
+@media (min-width: 1400px) and (max-width:1500px) {
     html {
         font-size: 62.5%;
+
+    }
+
+    .padding86 {
+        padding: 8.6rem;
     }
 }
 
+@media (min-width: 1200px) and (max-width:1399.99px) {
+    html {
+        font-size: 62.5%;
+
+    }
+
+    .padding86 {
+        padding: 8.6rem;
+        padding-bottom: 2.9rem;
+    }
+}
+
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.99px) {
     html {
         font-size: 62.5%;
     }
@@ -24,7 +42,8 @@
     }
 
     .startups-wrapper-right {
-        padding: 4.8rem;
+        padding: 5rem;
+        padding-bottom: 2rem;
     }
 
     .startups-title {
@@ -38,7 +57,7 @@
     }
 
     .startups-wrapper-right {
-        padding-bottom: 1rem !important;
+        /* padding-bottom: 1rem !important; */
     }
 
     .inquiryBtn {
@@ -51,6 +70,10 @@
 
     .inquiry {
         padding: 1.55rem 0.75rem !important;
+    }
+
+    .inquiry-form {
+        margin: 1rem 0rem;
     }
 }
 
@@ -125,7 +148,7 @@
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) {
     html {
-        font-size: 42.5%;
+        font-size: 50.5%;
     }
 
     .hamburger {
@@ -277,4 +300,8 @@
         margin-top: 4rem;
     }
 
+    /* readCase */
+    .keyword-list li {
+        margin-right: 2.77rem;
+    }
 }
